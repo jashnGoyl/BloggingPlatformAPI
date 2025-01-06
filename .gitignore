@@ -1,4 +1,5 @@
 .env
+.factorypath
 # Java build directory
 target/
 build/
