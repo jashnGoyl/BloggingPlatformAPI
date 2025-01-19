@@ -23,7 +23,7 @@ services:
     ports:
       - "3306:3306"
     volumes:
-      - db_data:/var/lib/mysql   # Persist database data
+      - db_data:/var/lib/mysql  
 
 volumes:
-  db_data:   # Define the volume for MySQL data persistence
+  db_data:   

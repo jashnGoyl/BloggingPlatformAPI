@@ -1,7 +1,7 @@
 # Use an official OpenJDK runtime for Java 21
 FROM eclipse-temurin:21
 
-# Set the working directory in the container
+
 WORKDIR /app
 
 # Copy the JAR file to the container
